@@ -8,8 +8,8 @@ from keras.activations import selu
 
 
 def CustomNet():
-		image_input=Input((256,256,60),name='image_input')
-        clinic_input=Input((18,),name='clinic_input')
+	image_input=Input((256,256,60),name='image_input')
+        clinic_input=Input((18,),name='clinical_input')
 
 ################ clinical side
 
